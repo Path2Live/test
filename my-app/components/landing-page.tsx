@@ -202,7 +202,7 @@ const testimonials: Testimonial[] = [
   }
 ]
 
-export default function Component() {
+export function LandingPage() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [activeTab, setActiveTab] = useState("public-profile")
   const [activeBrandingTab, setActiveBrandingTab] = useState("create")
